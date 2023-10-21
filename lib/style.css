@@ -1,0 +1,42 @@
+/* Add your styles here */
+
+header {
+    text-align: center;
+}
+
+.negrilla {
+  font-weight: bold;
+}
+
+#notacion1 {
+  border-width: 2px;
+  border-style: solid;
+  border-color: darkcyan;
+
+}
+
+h5.card-title {
+  color:Teal;
+}
+
+h1.tituloPrincipal{
+  box-sizing: border-box;
+  width: 80%;
+  font-weight: bold;
+  font-stretch: semi-condensed;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+#definicionn {
+  background-color: rgb(243, 255, 255);
+}
+
+
+.definicion1 {
+  background-color: rgb(233, 232, 232);
+}
+
+.definicion2 {
+  background-color: rgb(233, 232, 232);
+}
