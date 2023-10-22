@@ -1,7 +1,20 @@
 /* Add your styles here */
 
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
 header {
-    text-align: center;
+    background: black;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+
 }
 
 .negrilla {
@@ -28,15 +41,37 @@ h1.tituloPrincipal{
   text-transform: uppercase;
 }
 
-#definicionn {
-  background-color: rgb(243, 255, 255);
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: #dcdc39;
+  font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
-.definicion1 {
-  background-color: rgb(233, 232, 232);
+#logoMenu {
+  width: 80px;
 }
 
-.definicion2 {
-  background-color: rgb(233, 232, 232);
+
+.menu {
+  width: 900px;
+  margin: 0 auto;
 }
+
+nav {
+  float:left;
+  padding: 5px;
+}
+
+#nombreLogo {
+  color:white;
+  font-size: 20pt;
+}
+
+.table {
+  margin: 30px auto;
+}
+
+
