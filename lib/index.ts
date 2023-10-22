@@ -1,6 +1,6 @@
 import { series } from './data.js';
 
-const tabla: HTMLElement | null = document.querySelector('.table tbody');
+const tabla: HTMLElement | null = document.querySelector('.cuerpo-Series');
 
 if (tabla) {
     series.forEach((serie) => {
