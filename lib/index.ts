@@ -1,7 +1,7 @@
 import { series } from './data.js';
 import { Serie } from './Serie.js';
 
-const tabla: HTMLElement | null = document.querySelector('.cuerpo-Series');
+const tabla: HTMLElement | null = document.querySelector('table');
 
 if (tabla) {
     series.forEach((serie) => {
@@ -19,4 +19,3 @@ if (tabla) {
 } else {
     console.error("No se encontró el elemento con la clase 'table'");
 }
-document.getElementsByTagName("h1")[0].innerHTML = "Hola desde Typescript";
