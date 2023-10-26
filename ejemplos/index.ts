@@ -1,7 +1,6 @@
 import { series } from './data.js';
-import { Serie } from './Serie.js';
 
-const tabla: HTMLElement | null = document.querySelector('table');
+export const tabla: HTMLElement | null = document.querySelector('table');
 
 if (tabla) {
     series.forEach((serie) => {
