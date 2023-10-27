@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet"  href="lib/style.css"/>
+  <link rel="stylesheet"  href="styles/style.css"/>
+  <link rel="icon" href="imagenes/logo.png">
   <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,9 +28,9 @@
   </header>
   
   
-  <div class="container">
+  <div class="container" id="Cuerpo">
     <div class="row">
-      <div class="col-lg-7 col-12">
+      <div class="col-lg-8 col-8 col-sm-12">
         <table class="table table-striped table-dark" id="tablaSeries">
           <thead>
             <tr>
@@ -44,15 +45,14 @@
         </table>
         <p id="average">Average seasons: 0</p>
       </div>
-      <div class="col-lg-6 col-12" id="contenido">
+      <div class="col-lg-4 col-4 col-sm-12" id="cartaContenido">
       </div>
     </div>
   </div>
 
-<script>var exports = {}</script>
-<script type="module" src = "ejemplos/index.js"></script>
-<script type="module" src = "ejemplos/data.js"></script>
-<script type="module" src = "ejemplos/Serie.js"></script>
+<script type="module" src = "scripts/index.js"></script>
+<script type="module" src = "scripts/data.js"></script>
+<script type="module" src = "scripts/Serie.js"></script>
 </body>
 </html>
 

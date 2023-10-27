@@ -54,6 +54,9 @@ body {
   width: 80px;
 }
 
+#nombreSerie{
+  color:cyan;
+}
 
 .menu {
   width: 900px;
@@ -68,6 +71,10 @@ nav {
 #nombreLogo {
   color:white;
   font-size: 20pt;
+}
+
+#cartaContenido {
+  margin: 30px auto;
 }
 
 .table {
