@@ -55,7 +55,8 @@ body {
 }
 
 #nombreSerie{
-  color:cyan;
+  color:dodgerblue;
+  cursor: pointer;
 }
 
 .menu {

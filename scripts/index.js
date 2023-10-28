@@ -5,8 +5,8 @@ var sumatoria = 0;
 function cargarTabla() {
     if (tabla) {
         series.forEach(function (serie) {
-            var row = document.createElement('tr');
-            row.innerHTML = "\n            <td scope=\"row\">".concat(serie.id, "</td>\n            <td scope=\"row\" id=\"nombreSerie\">").concat(serie.nombre, "</td>\n            <td scope=\"row\">").concat(serie.canal, "</td>\n            <td scope=\"row\">").concat(serie.temporadas, "</td>");
+            var row = document.createElement('tr'); // <td scope="row" id="nombreSerie">${serie.nombre}</td>
+            row.innerHTML = "\n            <td scope=\"row\">".concat(serie.id, "</td>\n            <td id=\"nombreSerie\">").concat(serie.nombre, "</td>\n            <td>").concat(serie.canal, "</td>\n            <td>").concat(serie.temporadas, "</td>");
             tabla.appendChild(row);
             row.addEventListener('click', function () { cargarCarta(serie); });
         });

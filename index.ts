@@ -9,12 +9,12 @@ var sumatoria: number = 0;
 function cargarTabla():void{
     if (tabla) {
     series.forEach((serie) => {
-        const row = document.createElement('tr');
+        const row = document.createElement('tr'); // <td scope="row" id="nombreSerie">${serie.nombre}</td>
         row.innerHTML = `
             <td scope="row">${serie.id}</td>
-            <td scope="row" id="nombreSerie">${serie.nombre}</td>
-            <td scope="row">${serie.canal}</td>
-            <td scope="row">${serie.temporadas}</td>`
+            <td id="nombreSerie">${serie.nombre}</td>
+            <td>${serie.canal}</td>
+            <td>${serie.temporadas}</td>`
 
         tabla.appendChild(row);
 
